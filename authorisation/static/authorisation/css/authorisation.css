@@ -1,0 +1,425 @@
+body {
+    background: #e3e7e8;
+}
+
+.add_user {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.registration_phrase {
+    margin-left: 810px;
+    margin-top: -100px;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+}
+
+.smart_home {
+    margin-left: 1400px;
+    margin-top: -90px;
+}
+
+ul.tabs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    width: 100%;
+    margin-left: 470px;
+    margin-top: 100px;
+}
+
+ul.tabs2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    width: 100%;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+ul.tabs_child{
+    margin:0;
+    padding:0;
+    list-style: none;
+    height: 30px;
+    width: 298px;
+    position: relative;
+    top:30px;
+    left:623px;
+    font-size: 18px;
+}
+ul.tabs li {
+    float: left;
+    margin: 0 16px 0 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    background: #eee;
+    border-radius:7px 7px 0 0;
+    -moz-border-radius:7px 7px 0 0;
+    -webkit-border-radius:7px 7px 0 0;
+    font-size: 18px;
+}
+
+ul.tabs2 li {
+    float: left;
+    margin: 0 16px 0 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    background: #eee;
+    border-radius:7px 7px 0 0;
+    -moz-border-radius:7px 7px 0 0;
+    -webkit-border-radius:7px 7px 0 0;
+    font-size: 18px;
+}
+
+ul.tabs_child li{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    background: #eee;
+    font-size: 18px;
+}
+ul.tabs li a, ul.tabs_child li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    display: block;
+    font-size: 18px;
+    padding: 0 12px;
+    outline: none;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+ul.tabs2 li a{
+    text-decoration: none;
+    color: #4a4a4a;
+    display: block;
+    font-size: 18px;
+    padding: 0 12px;
+    outline: none;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+ul.tabs li a {
+    font-size: 24px;
+}
+
+ul.tabs2 li a {
+    font-size: 24px;
+}
+
+ul.tabs li a:hover, ul.tabs li.active a, ul.tabs_child li.active a, ul.tabs_child li a:hover
+{
+    color: #fff!important;
+    font-size: 18px;
+}
+
+ul.tabs2 li a:hover, ul.tabs2 li.active a
+{
+    color: #fff!important;
+    font-size: 18px;
+}
+
+ul.tabs li.active,  ul.tabs_child li.active
+{
+background: #000;
+    font-size: 18px;
+}
+
+ul.tabs2 li.active
+{
+background: #000;
+    font-size: 18px;
+}
+
+ul.tabs li:hover, ul.tabs_child li:hover
+{
+background: #a1a1a1;
+     font-size: 18px;
+}
+
+ul.tabs2 li:hover
+{
+background: #a1a1a1;
+     font-size: 18px;
+}
+
+.tab_container, .tab_container_child
+ {
+    border:1px solid #1a1a1a;
+    background:#eee;
+    width: 970px;
+    font-size: 18px;
+}
+
+.tab_container {
+    margin-left: 470px;
+    height: 350px;
+    font-size: 18px;
+}
+
+.tab_container_child{
+    width:621px;
+    font-size: 18px;
+}
+.tab_content, .tab_content_child
+ {
+    padding:17px;
+    color:#4a4a4a;
+    font-size: 18px;
+}
+
+.username_mainpage_for_user {
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+.country_mainpage_for_user {
+    font-size: 1.5rem;
+}
+
+.city_mainpage_for_user {
+    font-size: 1.5rem;
+}
+
+.btn-lg {
+    font-size: 1.2rem;
+    margin-left: 150px;
+}
+
+.btn-primary {
+    margin-left: 190px;
+}
+
+.reg_page_form {
+    margin-left: 35.0%;
+    width: 500px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.reg1 {
+    margin-left: 170px;
+}
+
+.reg2 {
+    margin-left: 880px;
+    margin-top: 40px;
+}
+
+.error_reg_page {
+    margin-top: 100px;
+    margin-left: 108px;
+}
+
+.user-info {
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.authoris_form {
+    margin-left: 35%;
+    width: 500px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.message_auth {
+    margin-top: 30px;
+    margin-left: 795px;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+.auth3 {
+    margin-left: 198px;
+    width: 100px;
+}
+
+.no_account_auth {
+    margin-left: 853px;
+}
+
+.norm_button_user {
+    float: left;
+    margin-top: 300px;
+    margin-left: -345px;
+}
+
+.f {
+    margin-left: 190px;
+}
+
+.error_reg_page {
+    color: red;
+    font-weight: bold;
+    width: 1000px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.shtora1 {
+    float: left;
+}
+.neshtora1 {
+    float: right;
+}
+
+.lestnica {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.womanlook {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonOpen {
+    margin-left: 370px;
+}
+
+.tab_container2
+ {
+    border:1px solid #1a1a1a;
+    background:#eee;
+    width: 970px;
+    font-size: 18px;
+}
+
+.tab_container2 {
+    margin-left: 800px;
+    height: 350px;
+    font-size: 18px;
+}
+
+
+.regchange {
+    margin-top: 60px;
+    margin-left: 900px;
+}
+
+.changeform {
+    float: left;
+}
+
+.c1, .c2, .c3, .c4 {
+    margin-left: 70px;
+}
+
+.c1 {
+    margin-top: 100px;
+}
+
+.datachange {
+    float: left;
+}
+
+.userchange, .passwordchange, .countrychange, .citychange {
+    margin-left: 234px;
+    font-weight: bold;
+    color: blue
+}
+
+.userchange {
+    margin-top: 106px;
+}
+
+.passwordchange {
+    margin-top: 39px;
+}
+
+.countrychange {
+    margin-top: 38px;
+}
+
+.citychange {
+    margin-top: 37px;
+}
+
+.ff {
+    margin-left: 215px;
+}
+
+.norm_button_useRR {
+    float: left;
+    margin-top: 300px;
+    margin-left: -260px;
+}
+
+.ffff {
+    margin-left: 100px;
+}
+
+.norm_button_useRRR {
+    float: left;
+    margin-top: 380px;
+    margin-left: -260px;
+}
+
+.fffff {
+    margin-left: 184px;
+}
+
+.smart_homeE {
+    margin-left: 1050px;
+    margin-top: -90px;
+}
+
+.user-info2 {
+    float: left;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.INFooo {
+    margin-top: 50px;
+    margin-left: 185px;
+}
+
+.changedatausersh {
+    margin-left: 838px;
+    margin-top: 100px;
+}
+
+.adminchange {
+    margin-top: 40px;
+    margin-left: 840px;
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+}
+
+.huy1 {
+    font-size: 1.5rem;
+    margin-top: 150px;
+}
+
+.huy2, .huy3, .huy4 {
+    font-size: 1.5rem;
+}
+
+.huy4 {
+    margin-top: 60px;
+    margin-left: 185px;
+}
+
+.smart_homeEEEEEEE {
+    margin-left: 1150px;
+    margin-top: -90px;
+}

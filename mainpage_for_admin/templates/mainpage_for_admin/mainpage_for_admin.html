@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "{% static 'authorisation/css/authorisation.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src= "{% static 'authorisation/js/my-tabs.js' %}"></script>
+    <title>Главная страница</title>
+</head>
+<body>
+    <nobr>
+        <aside>
+            <img class = "add_user" width = "120" height = "120" src = "{% static 'authorisation/img/add_user.png' %}">
+        </aside>
+        <h1 class = "registration_phrase">Главная страница</h1>
+        <img class = "smart_homeE" width = "120" height = "120" src = "{% static 'authorisation/img/smart_home.png' %}">
+    </nobr>
+    <a class = "leave" href = "{% url 'authorisation' %}"><button type="button" class="btn btn-danger btn-lg">Выйти</button></a>
+    <div class="user-info2">
+        <p class = "username_mainpage_for_user">admin</p>
+        <p class = "country_mainpage_for_user">Россия</p>
+        <p class = "city_mainpage_for_user">Пермь</p>
+    </div>
+    <div class = "norm_button_useRRR">
+        <form action = "{% url 'change_data_admin' %}">
+            <button type="submit" class="btn btn-primary btn-lg fffff">Изменить пользователей</button>
+        </form>
+        <a href = "{% static 'authorisation/rprt/UsersReport.xlsx' %}" download=""><button type="submit" class="btn btn-info btn-lg INFooo">Сгенерировать отчет</button></a>
+    </div>
+    <ul class="tabs">
+            <li class = "floor_tabs"><a href="#tab1" class = "floor_tabs">1 этаж</a></li>
+            <li class = "floor_tabs"><a href="#tab2" class = "floor_tabs">2 этаж</a></li>
+            <li class = "floor_tabs"><a href="#tab3" class = "floor_tabs">3 этаж</a></li>
+            <li class = "floor_tabs"><a href="#tab4" class = "floor_tabs">Домофон</a></li>
+            <li class = "floor_tabs"><a href="#tab5" class = "floor_tabs">Двор</a></li>
+        </ul>
+        <div class="tab_container">
+            <div class="tab_content" id="tab1">
+                <ul class="tabs_child">
+                    <li><a href="#tab11">1 комната</a></li>
+                    <li><a href="#tab12">2 комната</a></li>
+                    <li><a href="#tab13">3 комната</a></li>
+                    <li><a href="#tab14">Климат</a></li>
+                    <li><a href="#tab15">Коридор</a></li>
+                    <li><a href="#tab16">Кухня</a></li>
+                    <li><a href="#tab17">Камера</a></li>
+                </ul>
+                <div class="tab_container_child">
+                    <div class="tab_content_child" id="tab11">
+                        <label for = "shtora">Штора</label>
+                        <button type="button" class="btn btn-success main" id = "shtora">Открыть</button>
+                        <button type="button" class="btn btn-danger mainn">Закрыть</button><br><br>
+                        <label for = "svet">Свет</label>
+                        <button type="button" class="btn btn-success main" id = "svet">Включить</button>
+                        <button type="button" class="btn btn-danger mainn">Выключить</button><br><br>
+                        <label for = "TV">Телевизор</label>
+                        <button type="button" class="btn btn-success main" id = "TV">Включить</button>
+                        <button type="button" class="btn btn-danger mainn">Выключить</button><br><br>
+                        <label for = "SoundBarVolume">Саундбар громкость</label>
+                        <button type="button" class="btn btn-success main" id = "SoundBarVolume">Добавить</button>
+                        <button type="button" class="btn btn-danger mainn">Убавить</button>
+                    </div>
+                    <div class="tab_content_child" id="tab12">
+                        <label for = "shtora1">Штора</label>
+                        <button type="button" class="btn btn-success main" id = "shtora1">Открыть</button>
+                        <button type="button" class="btn btn-danger mainn">Закрыть</button><br><br>
+                        <label for = "svet1">Свет</label>
+                        <button type="button" class="btn btn-success main" id = "svet1">Включить</button>
+                        <button type="button" class="btn btn-danger mainn">Выключить</button><br><br>
+                        <label for = "TV1">Телевизор</label>
+                        <button type="button" class="btn btn-success main" id = "TV1">Включить</button>
+                        <button type="button" class="btn btn-danger mainn">Выключить</button><br><br>
+                        <label for = "SoundBarVolume1">Саундбар громкость</label>
+                        <button type="button" class="btn btn-success main" id = "SoundBarVolume1">Добавить</button>
+                        <button type="button" class="btn btn-danger mainn">Убавить</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab_content" id="tab2">
+                <ul class="tabs_child">
+                    <li><a href="#tab21">1 комната</a></li>
+                    <li><a href="#tab22">2 комната</a></li>
+                    <li><a href="#tab23">3 комната</a></li>
+                    <li><a href="#tab24">Климат</a></li>
+                    <li><a href="#tab25">Коридор</a></li>
+                    <li><a href="#tab26">Кухня</a></li>
+                    <li><a href="#tab27">Камера</a></li>
+                </ul>
+                <div class="tab_container_child">
+
+                </div>
+            </div>
+
+            <div class="tab_content" id="tab3">
+                <ul class="tabs_child">
+                    <li><a href="#tab31">1 комната</a></li>
+                    <li><a href="#tab32">2 комната</a></li>
+                    <li><a href="#tab33">3 комната</a></li>
+                    <li><a href="#tab34">Климат</a></li>
+                    <li><a href="#tab35">Коридор</a></li>
+                    <li><a href="#tab36">Кухня</a></li>
+                    <li><a href="#tab37">Камера</a></li>
+                </ul>
+                <div class="tab_container_child">
+                     <div class="tab_content_child" id="tab37">
+                        <img class = "lestnica" width = "350" height = "234" src = "{% static 'authorisation/img/lestnica.jpg' %}">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab_content" id="tab4">
+                <img class = "womanlook" width = "350" height = "234" src = "{% static 'authorisation/img/womanlook.jpg' %}">
+                <br>
+                <button type="button" class="btn btn-success buttonOpen">Открыть</button>
+                <button type="button" class="btn btn-danger buttonClose">Закрыть</button>
+            </div>
+            <div class="tab_content" id="tab5">
+                <label for = "svet2">Свет</label>
+                <button type="button" class="btn btn-success main" id = "svet2">Открыть</button>
+                <button type="button" class="btn btn-danger mainn">Закрыть</button><br><br>
+                <label for = "poliv">Полив</label>
+                <button type="button" class="btn btn-success main" id = "poliv">Включить</button>
+                <button type="button" class="btn btn-danger mainn">Выключить</button><br><br>
+                <label for = "vorota">Ворота</label>
+                <button type="button" class="btn btn-success main" id = "vorota">Открыть</button>
+                <button type="button" class="btn btn-danger mainn">Закрыть</button><br><br>
+            </div>
+        </div>
+</body>
+</html>
